@@ -1,6 +1,6 @@
 # Digit_Recognizer
 
-
+#->Note 1:
 The NN will have a simple two-layer architecture. Input layer  a[0]
   will have 784 units corresponding to the 784 pixels in each 28x28 input image. A hidden layer  a[1]
   will have 10 units with ReLU activation, and finally our output layer  a[2]
@@ -72,7 +72,5 @@ dB[2]
 dZ[1]
  : 10 x m (  A[1]
  )
-dW[1]
- : 10 x 10
- dB[1]
- : 10 x 1
+#dW[1]: 10 x 10
+# dB[1]: 10 x 1
